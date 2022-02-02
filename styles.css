@@ -2,24 +2,148 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .section-1{
     background-color: #1f2937;
+    padding: 8px 80px 96px;
 }
 
-.hero>h1{
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero{
+    display: flex;
+   justify-content: space-between;
+}
+.hero>.left>h1{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
-
-.header>ul{
+.hero>.left>p{
     font-size: 18px;
     color: #E5E7EB;
 }
 
+button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 .header>img{
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.right-links{
+    display: flex;
+    gap: 16px;
+}
+
+.placeholder{
+    background-color: lightgrey;
+    width: 400px;
+    height: 200px;
+    
+}
+/**/
+.section-2{
+    padding: 80px 96px;
+}
+
+.section-2>h2{
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+}
+  /**/
+.section-3{
+    padding: 80px 96px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+  }
+
+.section-3>p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.signature{
+    align-self: flex-end
+}
+/**/
+.section-4{
+    padding: 80px 96px;
+    text-align: center;
+
+}
+
+.content{
+    display: flex;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 8px 56px
+}
+.call-to-action{
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.content>button{
+    border: 2px solid #E5E7EB;
+    border-radius: 2px;
+}
+/**/
+.footer{
+    height: 72px;
+    background: darkblue;
+    color: darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
