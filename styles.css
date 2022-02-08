@@ -18,9 +18,15 @@ body{
     
 }
 
+.logo{
+    width: 100px;
+    height: auto;
+}
+
 .hero{
     display: flex;
    justify-content: space-between;
+   gap: 8px;
 }
 .hero>.left>h1{
     font-size: 48px;
@@ -61,9 +67,8 @@ a{
 }
 
 .placeholder{
-    background-color: lightgrey;
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: auto;
     
 }
 /**/
@@ -142,7 +147,7 @@ a{
 .footer{
     height: 72px;
     background: darkblue;
-    color: darkmagenta;
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
