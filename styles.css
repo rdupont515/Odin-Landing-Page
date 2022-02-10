@@ -72,11 +72,9 @@ a{
     
 }
 /**/
+  
 .section-2{
     padding: 80px 96px;
-}
-
-.section-2>h2{
     font-size: 36px;
     font-weight: 800;
     color:#1F2937;
@@ -86,17 +84,21 @@ a{
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 52px;
+    
 }
 
 .item{
-    display: flex;
-    flex-direction: column;
+    
     max-width: 200px;
-    align-items: center;
+    
 }
+.item>img{
+    width: 200px;
+    height: auto;
 
+}
 .text{
     text-align: center;
 }

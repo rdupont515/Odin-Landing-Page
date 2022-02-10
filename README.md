@@ -7,3 +7,13 @@ Manuchi
 
 CastleBeard Co.
     <https://unsplash.com/@castlebeard>
+
+Logan Weaver
+    <https://unsplash.com/@lgnwvr>
+    <https://www.lgnwvr.com/>
+
+Claudio Pantoni
+    <https://unsplash.com/@cpantoni>
+
+Andrea Donato
+    <https://unsplash.com/@andreadonato>
